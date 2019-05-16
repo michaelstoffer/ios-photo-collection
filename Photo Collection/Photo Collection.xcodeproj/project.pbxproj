@@ -17,6 +17,7 @@
 		D631EB6F228DBFB700F071A9 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D631EB6E228DBFB700F071A9 /* PhotosCollectionViewController.swift */; };
 		D631EB71228DBFDE00F071A9 /* PhotosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D631EB70228DBFDE00F071A9 /* PhotosCollectionViewCell.swift */; };
 		D631EB73228DC3E100F071A9 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D631EB72228DC3E100F071A9 /* PhotoDetailViewController.swift */; };
+		D631EB75228DC8D600F071A9 /* ThemeSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D631EB74228DC8D600F071A9 /* ThemeSelectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		D631EB6E228DBFB700F071A9 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
 		D631EB70228DBFDE00F071A9 /* PhotosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewCell.swift; sourceTree = "<group>"; };
 		D631EB72228DC3E100F071A9 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+		D631EB74228DC8D600F071A9 /* ThemeSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeSelectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				D631EB70228DBFDE00F071A9 /* PhotosCollectionViewCell.swift */,
 				D631EB6E228DBFB700F071A9 /* PhotosCollectionViewController.swift */,
 				D631EB72228DC3E100F071A9 /* PhotoDetailViewController.swift */,
+				D631EB74228DC8D600F071A9 /* ThemeSelectionViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D631EB6F228DBFB700F071A9 /* PhotosCollectionViewController.swift in Sources */,
+				D631EB75228DC8D600F071A9 /* ThemeSelectionViewController.swift in Sources */,
 				D631EB65228D1A1F00F071A9 /* Photo.swift in Sources */,
 				D631EB68228D1A9200F071A9 /* PhotoController.swift in Sources */,
 				D631EB73228DC3E100F071A9 /* PhotoDetailViewController.swift in Sources */,

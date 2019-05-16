@@ -79,7 +79,11 @@
                         </connections>
                     </collectionView>
                     <navigationItem key="navigationItem" id="ago-yQ-lCR">
-                        <barButtonItem key="leftBarButtonItem" title="Select Theme" id="RTD-IO-px7"/>
+                        <barButtonItem key="leftBarButtonItem" title="Select Theme" id="RTD-IO-px7">
+                            <connections>
+                                <segue destination="hk0-kA-cBo" kind="presentation" identifier="ToThemeSelection" id="JKy-k9-fnP"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Add" id="eL9-Iv-jGu">
                             <connections>
                                 <segue destination="scT-9n-fpI" kind="show" identifier="ToAddPhoto" id="d2e-od-Ase"/>
@@ -90,6 +94,66 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9hS-ss-L2W" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1039.1304347826087" y="109.82142857142857"/>
+        </scene>
+        <!--Theme Selection View Controller-->
+        <scene sceneID="vDe-xB-Szy">
+            <objects>
+                <viewController id="hk0-kA-cBo" customClass="ThemeSelectionViewController" customModule="Photo_Collection" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tAS-Rg-PtI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="43x-Bm-Awd">
+                                <rect key="frame" x="16" y="94" width="382" height="101.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PhotoCollection" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Zs-1k-PBB">
+                                        <rect key="frame" x="0.0" y="0.0" width="382" height="67"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="56"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select the theme you would like to use:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mtj-o8-O57">
+                                        <rect key="frame" x="0.0" y="75" width="382" height="26.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="BGp-ML-2ti">
+                                <rect key="frame" x="125" y="227.5" width="164" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gEv-Eg-MaD">
+                                        <rect key="frame" x="0.0" y="0.0" width="33" height="30"/>
+                                        <state key="normal" title="Dark"/>
+                                        <connections>
+                                            <action selector="selectDarkTheme:" destination="hk0-kA-cBo" eventType="touchUpInside" id="BYs-CO-2rL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ymS-jv-CWZ">
+                                        <rect key="frame" x="133" y="0.0" width="31" height="30"/>
+                                        <state key="normal" title="Blue"/>
+                                        <connections>
+                                            <action selector="selectBlueTheme:" destination="hk0-kA-cBo" eventType="touchUpInside" id="PLl-Gf-w8q"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="BGp-ML-2ti" firstAttribute="centerX" secondItem="tAS-Rg-PtI" secondAttribute="centerX" id="Nhf-32-9PF"/>
+                            <constraint firstItem="43x-Bm-Awd" firstAttribute="leading" secondItem="hda-zP-cj1" secondAttribute="leading" constant="16" id="T9e-Mh-NS3"/>
+                            <constraint firstItem="43x-Bm-Awd" firstAttribute="top" secondItem="hda-zP-cj1" secondAttribute="top" constant="50" id="TXa-aO-ri2"/>
+                            <constraint firstItem="hda-zP-cj1" firstAttribute="trailing" secondItem="43x-Bm-Awd" secondAttribute="trailing" constant="16" id="TkZ-oY-3Uh"/>
+                            <constraint firstItem="BGp-ML-2ti" firstAttribute="top" secondItem="43x-Bm-Awd" secondAttribute="bottom" constant="32" id="api-mW-Ava"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hda-zP-cj1"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NVr-B1-ClV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1037.68115942029" y="807.58928571428567"/>
         </scene>
         <!--Photo Detail View Controller-->
         <scene sceneID="ijI-zv-pvB">
