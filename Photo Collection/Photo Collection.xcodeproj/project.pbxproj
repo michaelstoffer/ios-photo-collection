@@ -16,6 +16,7 @@
 		D631EB6A228D1BFD00F071A9 /* ThemeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D631EB69228D1BFD00F071A9 /* ThemeHelper.swift */; };
 		D631EB6F228DBFB700F071A9 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D631EB6E228DBFB700F071A9 /* PhotosCollectionViewController.swift */; };
 		D631EB71228DBFDE00F071A9 /* PhotosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D631EB70228DBFDE00F071A9 /* PhotosCollectionViewCell.swift */; };
+		D631EB73228DC3E100F071A9 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D631EB72228DC3E100F071A9 /* PhotoDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		D631EB69228D1BFD00F071A9 /* ThemeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeHelper.swift; sourceTree = "<group>"; };
 		D631EB6E228DBFB700F071A9 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
 		D631EB70228DBFDE00F071A9 /* PhotosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewCell.swift; sourceTree = "<group>"; };
+		D631EB72228DC3E100F071A9 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 			children = (
 				D631EB70228DBFDE00F071A9 /* PhotosCollectionViewCell.swift */,
 				D631EB6E228DBFB700F071A9 /* PhotosCollectionViewController.swift */,
+				D631EB72228DC3E100F071A9 /* PhotoDetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				D631EB6F228DBFB700F071A9 /* PhotosCollectionViewController.swift in Sources */,
 				D631EB65228D1A1F00F071A9 /* Photo.swift in Sources */,
 				D631EB68228D1A9200F071A9 /* PhotoController.swift in Sources */,
+				D631EB73228DC3E100F071A9 /* PhotoDetailViewController.swift in Sources */,
 				D631EB6A228D1BFD00F071A9 /* ThemeHelper.swift in Sources */,
 				D631EB52228D12A400F071A9 /* AppDelegate.swift in Sources */,
 				D631EB71228DBFDE00F071A9 /* PhotosCollectionViewCell.swift in Sources */,
