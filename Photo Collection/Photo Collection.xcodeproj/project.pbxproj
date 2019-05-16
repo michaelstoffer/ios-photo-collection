@@ -62,13 +62,9 @@
 			children = (
 				D631EB63228D1A0C00F071A9 /* Models */,
 				D631EB66228D1A8100F071A9 /* Model Controllers */,
-				D631EB51228D12A400F071A9 /* AppDelegate.swift */,
-				D631EB53228D12A400F071A9 /* ViewController.swift */,
-				D631EB69228D1BFD00F071A9 /* ThemeHelper.swift */,
-				D631EB55228D12A400F071A9 /* Main.storyboard */,
-				D631EB58228D12A500F071A9 /* Assets.xcassets */,
-				D631EB5A228D12A500F071A9 /* LaunchScreen.storyboard */,
-				D631EB5D228D12A500F071A9 /* Info.plist */,
+				D631EB6B228D20C400F071A9 /* View Controllers */,
+				D631EB6C228D20D000F071A9 /* Storyboards */,
+				D631EB6D228D20DF00F071A9 /* Resources */,
 			);
 			path = "Photo Collection";
 			sourceTree = "<group>";
@@ -87,6 +83,34 @@
 				D631EB67228D1A9200F071A9 /* PhotoController.swift */,
 			);
 			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		D631EB6B228D20C400F071A9 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D631EB53228D12A400F071A9 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D631EB6C228D20D000F071A9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D631EB55228D12A400F071A9 /* Main.storyboard */,
+				D631EB5A228D12A500F071A9 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D631EB6D228D20DF00F071A9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D631EB51228D12A400F071A9 /* AppDelegate.swift */,
+				D631EB69228D1BFD00F071A9 /* ThemeHelper.swift */,
+				D631EB58228D12A500F071A9 /* Assets.xcassets */,
+				D631EB5D228D12A500F071A9 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,7 +336,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3XVDLP5XYQ;
-				INFOPLIST_FILE = "Photo Collection/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Photo Collection/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,7 +354,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3XVDLP5XYQ;
-				INFOPLIST_FILE = "Photo Collection/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Photo Collection/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
