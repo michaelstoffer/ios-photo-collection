@@ -68,6 +68,7 @@
 			children = (
 				D631EB63228D1A0C00F071A9 /* Models */,
 				D631EB66228D1A8100F071A9 /* Model Controllers */,
+				D631EB76228E041900F071A9 /* Views */,
 				D631EB6B228D20C400F071A9 /* View Controllers */,
 				D631EB6C228D20D000F071A9 /* Storyboards */,
 				D631EB6D228D20DF00F071A9 /* Resources */,
@@ -94,7 +95,6 @@
 		D631EB6B228D20C400F071A9 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				D631EB70228DBFDE00F071A9 /* PhotosCollectionViewCell.swift */,
 				D631EB6E228DBFB700F071A9 /* PhotosCollectionViewController.swift */,
 				D631EB72228DC3E100F071A9 /* PhotoDetailViewController.swift */,
 				D631EB74228DC8D600F071A9 /* ThemeSelectionViewController.swift */,
@@ -120,6 +120,14 @@
 				D631EB5D228D12A500F071A9 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		D631EB76228E041900F071A9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D631EB70228DBFDE00F071A9 /* PhotosCollectionViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
