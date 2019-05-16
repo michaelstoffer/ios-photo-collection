@@ -27,8 +27,8 @@ class ThemeHelper {
         userDefaults.set("Dark", forKey: themePreferenceKey)
     }
     
-    func setThemePreferenceToYourColorHere(withColor color: UIColor) {
+    func setThemePreferenceToBlue() {
         let userDefaults = UserDefaults.standard
-        userDefaults.set(color, forKey: themePreferenceKey)
+        userDefaults.set("Blue", forKey: themePreferenceKey)
     }
 }
